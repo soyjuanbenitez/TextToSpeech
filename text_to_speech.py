@@ -2,5 +2,7 @@ import pyttsx3
 
 engine = pyttsx3.init()
 
-engine.say("I love Python")
+message = input("Write what you want here: ")
+
+engine.say(message)
 engine.runAndWait()
